@@ -1,0 +1,50 @@
+body {
+    background-color: #b8e994;
+  }
+  .home video{
+    width: 100%;
+    height: 800px;
+    object-position: center;
+    object-fit: cover;
+  
+  }
+  
+  #headerSection h1 {
+    position:absolute;
+    top:10%;
+    left:30.3% ;
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  .loginSection {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+  
+  }
+  .loginSection input {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .loginSection select {
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 45%;
+    border: 2px solid black;
+  }
+  
+  #loginbtn {
+    position:absolute;
+    top: 70%;
+      left: 30%;
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+  }
+  
